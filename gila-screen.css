@@ -7,6 +7,11 @@
 
 /* ##### Common Styles ##### */
 
+html {
+  height: 100%;
+}
+
+
 body {
   color: black;
   background-color: rgb(243,242,235);
@@ -14,6 +19,7 @@ body {
   font-size: 73%;  /* Enables font size scaling in MSIE */
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 html > body {
@@ -217,9 +223,11 @@ acronym, .titleTip {
   background-color: white;
   text-align: justify;
   line-height: 1.5em;
-  margin: 0 0 0 12.5em;
+  margin: 0 auto;
   padding: 0.5ex 15em 1em 1em;
-  border-left: 1px solid rgb(216,210,195);
+  border: 1px solid rgb(216,210,195);
+  height: calc(100% - 64px);
+  width: calc(100% - 220px);
 }
 
 #main-copy h1 {
