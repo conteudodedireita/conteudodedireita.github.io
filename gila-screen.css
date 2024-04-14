@@ -42,7 +42,7 @@ acronym, .titleTip {
 
 #header {
   color: inherit;
-  background-color: linear-gradient(2deg, #16b83e 42%, #ffe11f 44%);
+  background: linear-gradient(2deg, #16b83e 42%, #ffe11f 44%);
 }
 
 .headerTitle {
