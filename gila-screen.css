@@ -37,6 +37,16 @@ acronym, .titleTip {
   display: none !important;
 }
 
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 4px 0;
+  border-bottom: 1px solid #DDD;
+  padding: 0px 0 4px 0;
+  list-style-type: disclosure-closed;
+}
 
 .smallCaps {
   font-size: 117%;
