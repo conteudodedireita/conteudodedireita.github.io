@@ -42,7 +42,7 @@ acronym, .titleTip {
 
 #header {
   color: inherit;
-  background-color: rgb(184,38,25);
+  background-color: linear-gradient(2deg, #16b83e 42%, #ffe11f 44%);
 }
 
 .headerTitle {
@@ -223,12 +223,20 @@ acronym, .titleTip {
 }
 
 #main-copy h1 {
-  color: rgb(166,140,83);
   background-color: transparent;
   font-family: arial, verdana, helvetica, sans-serif;
-  font-size: 175%;
+  font-size: 30px;
   font-weight: bold;
-  font-style: italic;
+  text-align: left;
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
+}
+
+#main-copy h2 {
+  background-color: transparent;
+  font-family: arial, verdana, helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   text-align: left;
   margin: 1em 0 0 0;
   padding: 1em 0 0 0;
