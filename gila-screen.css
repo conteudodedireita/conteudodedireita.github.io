@@ -22,17 +22,6 @@ body {
   height: 100%;
 }
 
-body::before {
-  background-image: url('https://antonioriccitelli.com.br/site2022/wp-content/uploads/2015/04/bandeira-do-brasil-pintada1-1150x647-1-1024x576.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  opacity: 0.1;
-  content: '';
-  display: block;
-  position: absolute;
-}
-
 html > body {
   font-size: 9pt;
 }
@@ -244,11 +233,23 @@ li {
   background-color: white;
   text-align: justify;
   line-height: 1.5em;
-  margin: 0 auto;
+  margin: 4px auto;
   padding: 0.5ex 15em 1em 1em;
   border: 1px solid rgb(216,210,195);
-  height: calc(100% - 64px);
+  height: calc(100% - 72px);
   width: calc(100% - 220px);
+  border-radius: 1px;
+}
+
+#main-copy::before {
+  background-image: url('https://antonioriccitelli.com.br/site2022/wp-content/uploads/2015/04/bandeira-do-brasil-pintada1-1150x647-1-1024x576.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  opacity: 0.1;
+  content: '';
+  display: block;
+  position: absolute;
 }
 
 #main-copy h1 {
