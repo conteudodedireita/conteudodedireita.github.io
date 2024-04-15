@@ -242,14 +242,18 @@ li {
 }
 
 #main-copy::before {
-  background-image: url('https://antonioriccitelli.com.br/site2022/wp-content/uploads/2015/04/bandeira-do-brasil-pintada1-1150x647-1-1024x576.jpg');
+  background-image: url(bandeira-do-brasil-pintada.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   opacity: 0.1;
   content: '';
   display: block;
+  z-index: 1;
   position: absolute;
+  width: calc(100% - 28px);
+  height: calc(100% - 57px);
+  margin: -3px -12px;
 }
 
 #main-copy h1 {
