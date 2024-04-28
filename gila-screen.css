@@ -43,7 +43,7 @@ ul {
 
 li {
   margin: 4px 0;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #AAA;
   padding: 0px 0 4px 0;
   list-style-type: disclosure-closed;
 }
@@ -230,7 +230,6 @@ li {
 
 #main-copy {
   color: black;
-  background-color: white;
   text-align: justify;
   line-height: 1.5em;
   margin: 4px auto;
@@ -249,7 +248,7 @@ li {
   opacity: 0.1;
   content: '';
   display: block;
-  z-index: 1;
+  z-index: -1;
   position: absolute;
   width: calc(100% - 28px);
   height: calc(100% - 57px);
